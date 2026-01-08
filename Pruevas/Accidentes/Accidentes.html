@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accidentes de Motocicleta</title>
+    <link href="../CSS/bootstrap.min.css" rel="stylesheet">
+    <style>
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        body {
+            background: #f7f2ef;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #8B0000;
+            margin-bottom: 35px;
+            text-shadow: 2px 2px 4px #c7a297;
+        }
+
+        .card {
+            border-left: 6px solid #8b1313;
+            background: #fffaf8;
+            box-shadow: 0 4px 15px rgba(139, 0, 0, 0.15);
+        }
+
+        .label {
+            font-weight: bold;
+            color: #8b1313;
+        }
+
+        .acc-img {
+            height: 180px;
+            object-fit: cover;
+        }
+
+        nav .nav-link {
+            position: relative;
+            text-transform: uppercase;
+        }
+
+        nav .nav-link::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: 6px;
+            width: 0;
+            height: 2px;
+            background-color: rgb(255, 255, 255);
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+        
+        nav .nav-link:hover::after {
+            width: 60%;
+        }
+
+        .contenedor {
+            padding: 20px;
+            background-color: white;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 900px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px #aaa;
+        }
+
+    </style>
+</head>
+
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#662532;">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <img src="../LogoPagina.png" height="80" width="80">
+            <img src="../logo.png" height="80px" width="210">
+            <div class="collapse navbar-collapse" id="menu">
+                
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="../inicio.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../Tipos de cascos y Practicas de Manejo/practicasmanejo.html">Prácticas Seguras</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../Tipos de cascos y Practicas de Manejo/Tipos de casco.html">Tipos de Cascos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../Contacto/contacto.html">Contacto</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</head>
+
+<body>
+    <h1>Accidentes de Motocicleta</h1>
+
+    <div class="container">
+
+        <div class="card mb-4">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="caida.jpg" class="img-fluid acc-img rounded-start">
+                </div>
+
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p><span class="label">ID:</span> 5</p>
+                        <p><span class="label">Fecha:</span> 2025-04-01</p>
+                        <p><span class="label">Motociclista:</span> Obed Asael</p>
+                        <p><span class="label">Descripción:</span> Impacto delantero en semáforo</p>
+                        <p><span class="label">Gravedad:</span> Alta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="caida2.webp" class="img-fluid acc-img rounded-start">
+                </div>
+
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p><span class="label">ID:</span> 6</p>
+                        <p><span class="label">Fecha:</span> 2025-04-05</p>
+                        <p><span class="label">Motociclista:</span> Cintia Guadalupe</p>
+                        <p><span class="label">Descripción:</span> Caída por arena en el camino</p>
+                        <p><span class="label">Gravedad:</span> Media</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="caida3.jpg" class="img-fluid acc-img rounded-start">
+                </div>
+
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p><span class="label">ID:</span> 7</p>
+                        <p><span class="label">Fecha:</span> 2025-15-08</p>
+                        <p><span class="label">Motociclista:</span> Cristopher Alejandro</p>
+                        <p><span class="label">Descripción:</span> Caída por la lluvia</p>
+                        <p><span class="label">Gravedad:</span> Media</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="caida4.webp" class="img-fluid acc-img rounded-start">
+                </div>
+
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p><span class="label">ID:</span> 8</p>
+                        <p><span class="label">Fecha:</span> 2025-27-011</p>
+                        <p><span class="label">Motociclista:</span> Yurem Gutierrez</p>
+                        <p><span class="label">Descripción:</span> Choque con un carro</p>
+                        <p><span class="label">Gravedad:</span> Alta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <p>Proyecto escolar - Seguridad Vial para Motociclistas | Equipo Base</p>
+    </footer>
+
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
